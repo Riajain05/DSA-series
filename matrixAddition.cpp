@@ -36,7 +36,7 @@ int main(){
             mat3[i][j]=mat1[i][j]+mat2[i][j];
         }
     }
-    cout << "transpose of given matrix is:"<< endl;
+    cout << "Addition of two given matrix is:"<< endl;
      for(int i=0; i<n1; i++){
         for(int j=0; j<m1; j++){
             cout << mat3[i][j] << " ";
